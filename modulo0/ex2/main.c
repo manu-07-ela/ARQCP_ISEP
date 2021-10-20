@@ -1,14 +1,11 @@
 #include <stdio.h>
-
-int sum(int a, int b){
-	return a+b;
-}
+#include "sum.h"
 
 int main(){
 	int a,b,c;
 	do{
 		printf("\nEnter the numbers: \n");
-		scanf("\n%d %d\n", &a, &b);
+		scanf("%d %d", &a, &b);
 		
 		printf("\nSum: %d\n", c=sum(a,b));
 		
