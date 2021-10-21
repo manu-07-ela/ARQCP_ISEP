@@ -1,11 +1,34 @@
-#include<stdio.h>
-#include "average.h"
-#include "fill_array.h"
+#include <stdio.h>
+//#include "methods.h"
 
-int main(void){
-    int notas[10];
-    int n = 10;
+double average(int *vec, int n){
+    int i, soma=0;
+    for(i=0;i<n;i++){
+        soma += vec[i];
+        printf("%d", soma);
+    }
+    
+    double media = soma/n;
+
+    return media;
+}
+
+void fill_array(int *vec, int n)
+{
+    int i;
+    int k;
+    for(i=0;i<n;i++){
+		scanf("%d", &k);
+		*(vec+i) = k;
+    }
+}
+
+int main(){
+    int notas[9];
+    int n = 9;
     fill_array(notas,n);
-    printf("%f",average(notas, n));
+    printf("%.1f", average(notas, n));
+    
+    return 0;
 }
 
