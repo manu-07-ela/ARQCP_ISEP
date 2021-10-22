@@ -8,8 +8,7 @@ int main()
 {
     int x = 2;
     int y = 3;
-    int *ptr = &x;
-    power_ref(ptr, y);
+    power_ref(&x, y);
     printf("%d", x);
     return 0;
 }
