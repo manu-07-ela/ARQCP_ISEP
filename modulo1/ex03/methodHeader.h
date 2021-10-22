@@ -1,1 +1,1 @@
-int sum_even(int *p, int num);
+int sum_even( int *p, int num);
