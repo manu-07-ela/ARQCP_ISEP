@@ -1,21 +1,21 @@
 
 int sort_without_reps(int *src, int n, int *dest){
 	int aux, cont=0; 
-	
+	int * p = src;
 	for(int i=0; i<n; i++){
 		for(int k=i+1; k<n; k++){
-			if(*(src+i) > *(src+k)){
-				aux = *(src+i);
-				*(src+i) = *(src+k);
-				*(src+k) = aux;
+			if(*(p+i) > *(p+k)){
+				aux = *(p+i);
+				*(p+i) = *(p+k);
+				*(p+k) = aux;
 			}
 		}
 		if (i == 0){
-			*dest = *src;
+			*dest = *p;
 			cont++;
 			}
-		else if(*(src+i-1) != *(src+i)){
-			*(dest+cont) = *(src+i);
+		else if(*(p+i-1) != *(p+i)){
+			*(dest+cont) = *(p+i);
 			cont++;
 			
 			}
