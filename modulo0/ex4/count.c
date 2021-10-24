@@ -1,3 +1,4 @@
+#include <stdio.h>
 
 void count(int *vec, int n, int value)
 {
