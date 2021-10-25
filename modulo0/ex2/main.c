@@ -1,13 +1,15 @@
 #include <stdio.h>
-#include "sum.h"
+#include "method.h"
+
 
 int main(){
-	int a,b,c;
-	do{
-		printf("\nEnter the numbers: \n");
-		scanf("%d %d", &a, &b);
-		
-		printf("\nSum: %d\n", c=sum(a,b));
-		
-	} while(c<10);
+    int a,b,c;
+    do{
+        printf("\nInsira os numeros: ");
+        scanf("%d %d", &a, &b);
+        c = sum(a,b);
+        printf("Soma: %d\n", c);
+
+    } while(c<10);
+    return 0;
 }

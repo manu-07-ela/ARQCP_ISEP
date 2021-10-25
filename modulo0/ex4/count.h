@@ -1,1 +1,1 @@
-void count(int *vec, int n, int value)
+void count(int *vec, int n, int value);
