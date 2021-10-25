@@ -1,7 +1,7 @@
-
+#include "methodHeader.h"
 int sort_without_reps(int *src, int n, int *dest){
 	int aux, cont=0; 
-	int * p = src;
+	int * p = copy_array(src, n);
 	for(int i=0; i<n; i++){
 		for(int k=i+1; k<n; k++){
 			if(*(p+i) > *(p+k)){
