@@ -2,26 +2,26 @@
 #include "methodHeader.h"
 
 int main(){
-	int array1[4] = {1,5,2,2};
-	int array2[4];
-	int size=4;
-	
-	printf("First array\n");
-	for (int i=0; i<size; i++){
-		printf("[%d]", array1[i]);
-		}
-		
-	printf("\n");
-	printf("Total of elements copied: %d", sort_without_reps(array1, size, array2));
-	printf("\n");
-	
-	printf("Second array\n");	
-	for (int i=0; i<size; i++){
-		printf("[%d]", array2[i]);
-		
-	}
-	
-	
-	
-	return 0;
+
+    int n, i;
+    printf("Insert the size of the array: ");
+    scanf("%d", &n);
+
+    int src[n];
+    int sortedOne[n];
+
+    printf("Insert the array:\n");
+    for(i = 0; i < n; i++){
+        scanf("%d", &src[i]);
+    }
+
+    int numberOfItems;
+    numberOfItems = sort_without_reps(src, n, sortedOne);
+    printf("Number os items: %d\n", numberOfItems);
+
+    printf("Sorted array:\n");
+    for(i = 0; i < numberOfItems; i++){
+        printf("%d\n", sortedOne[i]);
+    }
+    return 0;
 }
