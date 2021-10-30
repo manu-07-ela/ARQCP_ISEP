@@ -3,16 +3,10 @@
 
 int main(){
 	char str[] = "a man a plan a canal panama.";
+
 	
-	int size = cont(str);
-	
-	printf("size: %d\n", size);
-	
-	char* ptr = organizeString(str, size);
-	
-	printf("%s\n", ptr);
-	
-	printf("%d", palindrome(str));
-	
+	printf("is palindrome: %d \n", palindrome(str));
+	printf("1 - means it's a palindrome\n");
+	printf("0 - means isn't a palindrome\n");
 	return 0;
 }
