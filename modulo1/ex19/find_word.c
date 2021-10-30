@@ -23,5 +23,6 @@ char* find_word(char* initial_addr, char* word ){
 		if(j==aux)
 			return ptr;
 	}
+
 	return NULL;
 }

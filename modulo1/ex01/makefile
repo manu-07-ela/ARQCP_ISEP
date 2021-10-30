@@ -1,5 +1,5 @@
 mainCompile: main.c 
-	gcc -g -c -Wall main.c -o main 
+	gcc -g -c -Wall main.c -o main.o 
 
-run: main
-	./main 
+run: mainCompile
+	./main.o
