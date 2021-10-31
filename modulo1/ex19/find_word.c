@@ -4,7 +4,7 @@
 char* find_word(char* initial_addr, char* word ){
 	int j = 0;
 	int aux = cont_string(word);
-	char* ptr;
+	char* ptr = NULL;
 	
 	if(*initial_addr != '\0' && *word != '\0'){
 		while(*initial_addr != '\0' && j<aux ){
@@ -18,11 +18,13 @@ char* find_word(char* initial_addr, char* word ){
 			}
 					
 			initial_addr++;
-			
 		}
-		if(j==aux)
+
+		if(j == aux)
 			return ptr;
+		else
+			ptr=NULL;
 	}
 
-	return NULL;
+	return ptr;
 }
