@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "methodHeader"
+#include "methodHeader.h"
 int main(){
 	int array[2] = {1,1};
 	printf("%d\n",odd_sum(array));
