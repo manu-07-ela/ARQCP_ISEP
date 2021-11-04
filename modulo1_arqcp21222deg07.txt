@@ -1,0 +1,1205 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+#########################################################
+#########################################################
+/media/sf_work/2021/arqcp21222deg07
+#########################################################
+#########################################################
+
+#########################################################
+Git Commits
+    24	Manuela Leite
+    11	pedroccelestino
+     3	Luís Nogueira
+   Git History:                       
+7bf6c4e - pedroccelestino, 26 hours ago : Adição de makefiles
+25a4e2c - Manuela Leite, 31 hours ago : Pequenas alterações no exercício 19 - Módulo 1
+17708e2 - pedroccelestino, 2 days ago : Merge branch 'master' of https://bitbucket.org/orlandosousa/arqcp21222deg07
+df7a5e5 - pedroccelestino, 2 days ago : ex20 & makefiles
+2e70ffc - Manuela Leite, 2 days ago : Adicionando as makefiles dos exercícios com numeração ímpar
+89ffb0c - Manuela Leite, 2 days ago : Reparos no Exercício 15 - Módulo 1
+4fccf76 - Manuela Leite, 3 days ago : Merge branch 'master' of https://bitbucket.org/orlandosousa/arqcp21222deg07
+87973d2 - Manuela Leite, 3 days ago : Exercício 19 - Módulo 1
+f2293c8 - pedroccelestino, 3 days ago : Exercício 18 - módulo 1
+40a4fcc - pedroccelestino, 4 days ago : Exercício 16
+a8647a5 - Manuela Leite, 5 days ago : Exercício 17 - Módulo 1
+946064e - Manuela Leite, 5 days ago : Merge branch 'master' of https://bitbucket.org/orlandosousa/arqcp21222deg07
+48a9c80 - Manuela Leite, 5 days ago : Exercício 15 - Mósulo 1
+fcbad06 - pedroccelestino, 6 days ago : Correção exercício 9 modulo1.
+f0fd97a - Manuela Leite, 7 days ago : Consertando exercício 9 - Módulo 1
+5f39ba6 - Manuela Leite, 7 days ago : Exercício 14 - Módulo 1
+e6e5b80 - Manuela Leite, 7 days ago : Exercício 13 - Módulo 1
+a15d355 - Manuela Leite, 7 days ago : Merge branch 'master' of https://bitbucket.org/orlandosousa/arqcp21222deg07
+ae54e90 - Manuela Leite, 7 days ago : Exercício 12 - Mósulo 1
+97e7ad5 - pedroccelestino, 8 days ago : Merge branch 'master' of https://bitbucket.org/orlandosousa/arqcp21222deg07
+3f46d9d - pedroccelestino, 8 days ago : Resolução de exercícios do módulo 0
+36eceb9 - Manuela Leite, 8 days ago : Exercício 10 - Módulo 1
+889ffbd - Manuela Leite, 10 days ago : Consertando o exercício 6 - Módulo 1
+28f7f31 - Manuela Leite, 10 days ago : Resolvendo o problema do exercício 3 - Módulo 1
+45bdda6 - Manuela Leite, 10 days ago : Renomeando o nome dos ficheiros para conseguir utilizar os teste unitários
+c8f65ef - Manuela Leite, 11 days ago : Módulo 1 - Exercício 9
+e2eb08a - Manuela Leite, 11 days ago : Módulo 1 - exercício 7
+548a06f - Manuela Leite, 11 days ago : Módulo 1 - exercício 8
+fe31960 - pedroccelestino, 11 days ago : Adicionando exercício 1 alterado
+d58f61a - Manuela Leite, 11 days ago : Adcionando o exercício 5 do Módulo 1
+d4541b8 - Manuela Leite, 11 days ago : Adcionando o Exercício 4 do módulo 1
+774e271 - Manuela Leite, 12 days ago : Exercício 3 do Módulo 2
+233c825 - Manuela Leite, 12 days ago : Adicionando exercício 2 do Módulo 1
+858db80 - pedroccelestino, 12 days ago : Adcionando exercicios do modulo 0 
+#########################################################
+Solved exercises:   
+                    ./modulo1/ex01
+                    ./modulo1/ex02
+                    ./modulo1/ex03
+                    ./modulo1/ex04
+                    ./modulo1/ex05
+                    ./modulo1/ex06
+                    ./modulo1/ex07
+                    ./modulo1/ex08
+                    ./modulo1/ex09
+                    ./modulo1/ex10
+                    ./modulo1/ex11
+                    ./modulo1/ex12
+                    ./modulo1/ex13
+                    ./modulo1/ex14
+                    ./modulo1/ex15
+                    ./modulo1/ex16
+                    ./modulo1/ex17
+                    ./modulo1/ex18
+                    ./modulo1/ex19
+                    ./modulo1/ex20
+/media/sf_work/2021/arqcp21222deg07
+=======================================================
+============== ./arqcp21222deg07  ./modulo1/ex01 =======================
+=======================================================
+Checking main.c ...
+======================================
+========= make ==========
+========= gcc ==========
+========= compiling  ==========
+gcc exit code =0
+========= run ==========
+Running ./modulo1/ex01
+==69600== Memcheck, a memory error detector
+==69600== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==69600== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==69600== Command: ./a.out
+==69600== 
+5 8
+0x1fff0000d8 
+0x1fff0000d8 
+5
+0x1fff0000c0
+10 11 12 13 
+0x1fff0000c0 0x1fff0000c4 0x1fff0000c8 0x1fff0000cc 
+==69600== 
+==69600== HEAP SUMMARY:
+==69600==     in use at exit: 0 bytes in 0 blocks
+==69600==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==69600== 
+==69600== All heap blocks were freed -- no leaks are possible
+==69600== 
+==69600== For counts of detected and suppressed errors, rerun with: -v
+==69600== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+=======================================================
+============== ./arqcp21222deg07  ./modulo1/ex02 =======================
+=======================================================
+Checking copy_vec.c ...
+1/3 files checked 29% done
+Checking main.c ...
+2/3 files checked 86% done
+Checking print_vec.c ...
+3/3 files checked 100% done
+======================================
+========= make ==========
+./makefile
+cc    -c -o copy_vec.o copy_vec.c
+cc    -c -o print_vec.o print_vec.c
+cc    -c -o main.o main.c
+gcc -Wall -g -o ex02 copy_vec.o print_vec.o main.o
+make: Warning: File 'ex02' has modification time 1.8 s in the future
+make: 'ex02' is up to date.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+========= gcc ==========
+========= compiling  ==========
+gcc exit code =0
+========= run ==========
+Running ./modulo1/ex02
+==69632== Memcheck, a memory error detector
+==69632== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==69632== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==69632== Command: ./a.out
+==69632== 
+
+Vector 1 : 8 9 10 
+Vector 2 : 2 5 4 
+Vector 2 with 2 elements of Vector 1 : 8 9 4 ==69632== 
+==69632== HEAP SUMMARY:
+==69632==     in use at exit: 0 bytes in 0 blocks
+==69632==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==69632== 
+==69632== All heap blocks were freed -- no leaks are possible
+==69632== 
+==69632== For counts of detected and suppressed errors, rerun with: -v
+==69632== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+=======================================================
+============== ./arqcp21222deg07  ./modulo1/ex03 =======================
+=======================================================
+Checking main.c ...
+1/2 files checked 53% done
+Checking sum_even.c ...
+2/2 files checked 100% done
+======================================
+========= make ==========
+./makefile
+gcc -c -g -Wall main.c  -o main.o
+gcc -c -g -Wall sum_even.c -o sum_even.o
+gcc -c -g -Wall main.c  -o main.o
+gcc -c -g -Wall sum_even.c -o sum_even.o
+========= gcc ==========
+========= compiling  ==========
+gcc exit code =0
+========= run ==========
+Running ./modulo1/ex03
+==69662== Memcheck, a memory error detector
+==69662== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==69662== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==69662== Command: ./a.out
+==69662== 
+-6
+==69662== 
+==69662== HEAP SUMMARY:
+==69662==     in use at exit: 0 bytes in 0 blocks
+==69662==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==69662== 
+==69662== All heap blocks were freed -- no leaks are possible
+==69662== 
+==69662== For counts of detected and suppressed errors, rerun with: -v
+==69662== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+=======================================================
+============== ./arqcp21222deg07  ./modulo1/ex04 =======================
+=======================================================
+Checking main.c ...
+1/2 files checked 53% done
+Checking upper1.c ...
+2/2 files checked 100% done
+======================================
+========= make ==========
+./makefile
+cc    -c -o upper1.o upper1.c
+cc    -c -o main.o main.c
+gcc -Wall -g -o ex04 upper1.o main.o
+make: Warning: File 'ex04' has modification time 1.8 s in the future
+make: 'ex04' is up to date.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+========= gcc ==========
+========= compiling  ==========
+gcc exit code =0
+========= run ==========
+Running ./modulo1/ex04
+==69689== Memcheck, a memory error detector
+==69689== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==69689== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==69689== Command: ./a.out
+==69689== 
+tEsTe
+TESTE
+==69689== 
+==69689== HEAP SUMMARY:
+==69689==     in use at exit: 0 bytes in 0 blocks
+==69689==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==69689== 
+==69689== All heap blocks were freed -- no leaks are possible
+==69689== 
+==69689== For counts of detected and suppressed errors, rerun with: -v
+==69689== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+=======================================================
+============== ./arqcp21222deg07  ./modulo1/ex05 =======================
+=======================================================
+Checking main.c ...
+1/2 files checked 52% done
+Checking upper2.c ...
+2/2 files checked 100% done
+======================================
+========= make ==========
+./makefile
+gcc -c -g -Wall main.c  -o main.o
+gcc -c -g -Wall upper2.c -o upper2.o
+gcc -c -g -Wall main.c  -o main.o
+gcc -c -g -Wall upper2.c -o upper2.o
+========= gcc ==========
+========= compiling  ==========
+gcc exit code =0
+========= run ==========
+Running ./modulo1/ex05
+==69719== Memcheck, a memory error detector
+==69719== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==69719== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==69719== Command: ./a.out
+==69719== 
+tEsTe
+TESTE
+==69719== 
+==69719== HEAP SUMMARY:
+==69719==     in use at exit: 0 bytes in 0 blocks
+==69719==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==69719== 
+==69719== All heap blocks were freed -- no leaks are possible
+==69719== 
+==69719== For counts of detected and suppressed errors, rerun with: -v
+==69719== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+=======================================================
+============== ./arqcp21222deg07  ./modulo1/ex06 =======================
+=======================================================
+Checking main.c ...
+1/2 files checked 67% done
+Checking power_ref.c ...
+2/2 files checked 100% done
+======================================
+========= make ==========
+./makefile
+cc    -c -o power_ref.o power_ref.c
+cc    -c -o main.o main.c
+gcc -Wall -g -o ex06 power_ref.o main.o
+make: Warning: File 'ex06' has modification time 1.8 s in the future
+make: 'ex06' is up to date.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+========= gcc ==========
+========= compiling  ==========
+gcc exit code =0
+========= run ==========
+Running ./modulo1/ex06
+==69746== Memcheck, a memory error detector
+==69746== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==69746== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==69746== Command: ./a.out
+==69746== 
+8==69746== 
+==69746== HEAP SUMMARY:
+==69746==     in use at exit: 0 bytes in 0 blocks
+==69746==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==69746== 
+==69746== All heap blocks were freed -- no leaks are possible
+==69746== 
+==69746== For counts of detected and suppressed errors, rerun with: -v
+==69746== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+=======================================================
+============== ./arqcp21222deg07  ./modulo1/ex07 =======================
+=======================================================
+Checking array_sort1.c ...
+1/2 files checked 39% done
+Checking main.c ...
+2/2 files checked 100% done
+======================================
+========= make ==========
+./makefile
+gcc -c -g -Wall main.c  -o main.o
+gcc -c -g -Wall array_sort1.c -o array_sort1.o
+gcc -c -g -Wall main.c  -o main.o
+gcc -c -g -Wall array_sort1.c -o array_sort1.o
+========= gcc ==========
+========= compiling  ==========
+gcc exit code =0
+========= run ==========
+Running ./modulo1/ex07
+==69776== Memcheck, a memory error detector
+==69776== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==69776== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==69776== Command: ./a.out
+==69776== 
+431678
+134678
+==69776== 
+==69776== HEAP SUMMARY:
+==69776==     in use at exit: 0 bytes in 0 blocks
+==69776==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==69776== 
+==69776== All heap blocks were freed -- no leaks are possible
+==69776== 
+==69776== For counts of detected and suppressed errors, rerun with: -v
+==69776== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+=======================================================
+============== ./arqcp21222deg07  ./modulo1/ex08 =======================
+=======================================================
+Checking array_sort2.c ...
+1/2 files checked 41% done
+Checking main.c ...
+2/2 files checked 100% done
+======================================
+========= make ==========
+./makefile
+cc    -c -o array_sort2.o array_sort2.c
+cc    -c -o main.o main.c
+gcc -Wall -g -o ex08 array_sort2.o main.o
+make: Warning: File 'ex08' has modification time 1.8 s in the future
+make: 'ex08' is up to date.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+========= gcc ==========
+========= compiling  ==========
+gcc exit code =0
+========= run ==========
+Running ./modulo1/ex08
+==69803== Memcheck, a memory error detector
+==69803== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==69803== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==69803== Command: ./a.out
+==69803== 
+431678
+134678
+==69803== 
+==69803== HEAP SUMMARY:
+==69803==     in use at exit: 0 bytes in 0 blocks
+==69803==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==69803== 
+==69803== All heap blocks were freed -- no leaks are possible
+==69803== 
+==69803== For counts of detected and suppressed errors, rerun with: -v
+==69803== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+=======================================================
+============== ./arqcp21222deg07  ./modulo1/ex09 =======================
+=======================================================
+Checking main.c ...
+1/2 files checked 40% done
+Checking sort_without_reps.c ...
+2/2 files checked 100% done
+======================================
+========= make ==========
+./makefile
+gcc -c -g -Wall main.c  -o main.o
+gcc -c -g -Wall sort_without_reps.c -o sort_without_reps.o
+gcc -c -g -Wall main.c  -o main.o
+gcc -c -g -Wall sort_without_reps.c -o sort_without_reps.o
+========= gcc ==========
+========= compiling  ==========
+gcc exit code =0
+========= run ==========
+./modulo1/ex09 uses stdin
+=======================================================
+============== ./arqcp21222deg07  ./modulo1/ex10 =======================
+=======================================================
+Checking main.c ...
+1/2 files checked 31% done
+Checking odd_sum.c ...
+2/2 files checked 100% done
+======================================
+========= make ==========
+./makefile
+cc    -c -o odd_sum.o odd_sum.c
+cc    -c -o main.o main.c
+gcc -Wall -g -o ex10 odd_sum.o main.o
+make: Warning: File 'ex10' has modification time 1.8 s in the future
+make: 'ex10' is up to date.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+========= gcc ==========
+========= compiling  ==========
+gcc exit code =0
+========= run ==========
+Running ./modulo1/ex10
+==69856== Memcheck, a memory error detector
+==69856== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==69856== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==69856== Command: ./a.out
+==69856== 
+1
+==69856== 
+==69856== HEAP SUMMARY:
+==69856==     in use at exit: 0 bytes in 0 blocks
+==69856==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==69856== 
+==69856== All heap blocks were freed -- no leaks are possible
+==69856== 
+==69856== For counts of detected and suppressed errors, rerun with: -v
+==69856== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+=======================================================
+============== ./arqcp21222deg07  ./modulo1/ex11 =======================
+=======================================================
+Checking cont.c ...
+1/4 files checked 10% done
+Checking lowerToUpperCase.c ...
+2/4 files checked 27% done
+Checking main.c ...
+3/4 files checked 53% done
+Checking palindrome.c ...
+4/4 files checked 100% done
+======================================
+========= make ==========
+./makefile
+gcc -c -g -Wall main.c  -o main.o
+gcc -c -g -Wall lowerToUpperCase.c -o lowerToUpperCase.o
+gcc -c -g -Wall cont.c -o cont.o
+gcc -c -g -Wall palindrome.c -o palindrome.o
+gcc -c -g -Wall main.c  -o main.o
+gcc -c -g -Wall lowerToUpperCase.c -o lowerToUpperCase.o
+gcc -c -g -Wall cont.c -o cont.o
+gcc -c -g -Wall palindrome.c -o palindrome.o
+========= gcc ==========
+========= compiling  ==========
+gcc exit code =0
+========= run ==========
+Running ./modulo1/ex11
+==69904== Memcheck, a memory error detector
+==69904== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==69904== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==69904== Command: ./a.out
+==69904== 
+is palindrome: 1 
+1 - means it's a palindrome
+0 - means isn't a palindrome
+==69904== 
+==69904== HEAP SUMMARY:
+==69904==     in use at exit: 0 bytes in 0 blocks
+==69904==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==69904== 
+==69904== All heap blocks were freed -- no leaks are possible
+==69904== 
+==69904== For counts of detected and suppressed errors, rerun with: -v
+==69904== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+=======================================================
+============== ./arqcp21222deg07  ./modulo1/ex12 =======================
+=======================================================
+Checking capitalize.c ...
+1/3 files checked 39% done
+Checking main.c ...
+2/3 files checked 84% done
+Checking verify.c ...
+3/3 files checked 100% done
+======================================
+========= make ==========
+./makefile
+cc    -c -o capitalize.o capitalize.c
+cc    -c -o verify.o verify.c
+cc    -c -o main.o main.c
+gcc -Wall -g -o ex12 capitalize.o verify.o main.o
+make: Warning: File 'ex12' has modification time 1.8 s in the future
+make: 'ex12' is up to date.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+========= gcc ==========
+========= compiling  ==========
+gcc exit code =0
+========= run ==========
+Running ./modulo1/ex12
+==69936== Memcheck, a memory error detector
+==69936== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==69936== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==69936== Command: ./a.out
+==69936== 
+Instituto Superior De Engenharia Do Porto==69936== 
+==69936== HEAP SUMMARY:
+==69936==     in use at exit: 0 bytes in 0 blocks
+==69936==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==69936== 
+==69936== All heap blocks were freed -- no leaks are possible
+==69936== 
+==69936== For counts of detected and suppressed errors, rerun with: -v
+==69936== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+=======================================================
+============== ./arqcp21222deg07  ./modulo1/ex13 =======================
+=======================================================
+Checking main.c ...
+1/2 files checked 64% done
+Checking where_is.c ...
+2/2 files checked 100% done
+======================================
+========= make ==========
+./makefile
+gcc -c -g -Wall main.c  -o main.o
+gcc -c -g -Wall where_is.c -o where_is.o
+gcc -c -g -Wall main.c  -o main.o
+gcc -c -g -Wall where_is.c -o where_is.o
+========= gcc ==========
+========= compiling  ==========
+gcc exit code =0
+========= run ==========
+Running ./modulo1/ex13
+==69966== Memcheck, a memory error detector
+==69966== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==69966== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==69966== Command: ./a.out
+==69966== 
+Index of occurance of a: 0 6 
+==69966== 
+==69966== HEAP SUMMARY:
+==69966==     in use at exit: 0 bytes in 0 blocks
+==69966==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==69966== 
+==69966== All heap blocks were freed -- no leaks are possible
+==69966== 
+==69966== For counts of detected and suppressed errors, rerun with: -v
+==69966== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+=======================================================
+============== ./arqcp21222deg07  ./modulo1/ex14 =======================
+=======================================================
+Checking frequencies.c ...
+1/2 files checked 28% done
+Checking main.c ...
+2/2 files checked 100% done
+======================================
+========= make ==========
+./makefile
+cc    -c -o frequencies.o frequencies.c
+cc    -c -o main.o main.c
+gcc -Wall -g -o ex14 frequencies.o main.o
+make: Warning: File 'ex14' has modification time 1.8 s in the future
+make: 'ex14' is up to date.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+========= gcc ==========
+========= compiling  ==========
+gcc exit code =0
+========= run ==========
+Running ./modulo1/ex14
+==69993== Memcheck, a memory error detector
+==69993== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==69993== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==69993== Command: ./a.out
+==69993== 
+==69993== Conditional jump or move depends on uninitialised value(s)
+==69993==    at 0x48AB029: vfprintf (vfprintf.c:1637)
+==69993==    by 0x48AC865: buffered_vfprintf (vfprintf.c:2322)
+==69993==    by 0x48A9EB1: vfprintf (vfprintf.c:1296)
+==69993==    by 0x48B2605: printf (printf.c:33)
+==69993==    by 0x109299: main (main.c:13)
+==69993== 
+==69993== Use of uninitialised value of size 8
+==69993==    at 0x48A6D1E: _itoa_word (_itoa.c:179)
+==69993==    by 0x48AA5F3: vfprintf (vfprintf.c:1637)
+==69993==    by 0x48AC865: buffered_vfprintf (vfprintf.c:2322)
+==69993==    by 0x48A9EB1: vfprintf (vfprintf.c:1296)
+==69993==    by 0x48B2605: printf (printf.c:33)
+==69993==    by 0x109299: main (main.c:13)
+==69993== 
+==69993== Conditional jump or move depends on uninitialised value(s)
+==69993==    at 0x48A6D29: _itoa_word (_itoa.c:179)
+==69993==    by 0x48AA5F3: vfprintf (vfprintf.c:1637)
+==69993==    by 0x48AC865: buffered_vfprintf (vfprintf.c:2322)
+==69993==    by 0x48A9EB1: vfprintf (vfprintf.c:1296)
+==69993==    by 0x48B2605: printf (printf.c:33)
+==69993==    by 0x109299: main (main.c:13)
+==69993== 
+==69993== Conditional jump or move depends on uninitialised value(s)
+==69993==    at 0x48AB213: vfprintf (vfprintf.c:1637)
+==69993==    by 0x48AC865: buffered_vfprintf (vfprintf.c:2322)
+==69993==    by 0x48A9EB1: vfprintf (vfprintf.c:1296)
+==69993==    by 0x48B2605: printf (printf.c:33)
+==69993==    by 0x109299: main (main.c:13)
+==69993== 
+==69993== Conditional jump or move depends on uninitialised value(s)
+==69993==    at 0x48AA75D: vfprintf (vfprintf.c:1637)
+==69993==    by 0x48AC865: buffered_vfprintf (vfprintf.c:2322)
+==69993==    by 0x48A9EB1: vfprintf (vfprintf.c:1296)
+==69993==    by 0x48B2605: printf (printf.c:33)
+==69993==    by 0x109299: main (main.c:13)
+==69993== 
+1 0 0 0 0 0 1 0 1 0 1 0 3 0 1 0 2 0 1 0 ==69993== 
+==69993== HEAP SUMMARY:
+==69993==     in use at exit: 0 bytes in 0 blocks
+==69993==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==69993== 
+==69993== All heap blocks were freed -- no leaks are possible
+==69993== 
+==69993== For counts of detected and suppressed errors, rerun with: -v
+==69993== Use --track-origins=yes to see where uninitialised values come from
+==69993== ERROR SUMMARY: 100 errors from 5 contexts (suppressed: 0 from 0)
+=======================================================
+============== ./arqcp21222deg07  ./modulo1/ex15 =======================
+=======================================================
+Checking check.c ...
+1/4 files checked 14% done
+Checking inc_nsets.c ...
+2/4 files checked 26% done
+Checking main.c ...
+3/4 files checked 76% done
+Checking populate.c ...
+4/4 files checked 100% done
+======================================
+========= make ==========
+./Makefile
+gcc -c -g -Wall inc_nsets.c -o inc_nsets.o
+gcc -c -g -Wall populate.c -o populate.o
+gcc -c -g -Wall check.c -o check.o
+gcc -c -g -Wall main.c -o main.o
+gcc -c -g -Wall inc_nsets.c -o inc_nsets.o
+gcc -c -g -Wall populate.c -o populate.o
+gcc -c -g -Wall check.c -o check.o
+gcc -c -g -Wall main.c -o main.o
+========= gcc ==========
+========= compiling  ==========
+gcc exit code =0
+========= run ==========
+Running ./modulo1/ex15
+==70039== Memcheck, a memory error detector
+==70039== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==70039== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==70039== Command: ./a.out
+==70039== 
+==70039== Conditional jump or move depends on uninitialised value(s)
+==70039==    at 0x109158: check (check.c:2)
+==70039==    by 0x10921A: main (main.c:14)
+==70039== 
+==70039== Conditional jump or move depends on uninitialised value(s)
+==70039==    at 0x109160: check (check.c:2)
+==70039==    by 0x10921A: main (main.c:14)
+==70039== 
+11
+==70039== 
+==70039== HEAP SUMMARY:
+==70039==     in use at exit: 0 bytes in 0 blocks
+==70039==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==70039== 
+==70039== All heap blocks were freed -- no leaks are possible
+==70039== 
+==70039== For counts of detected and suppressed errors, rerun with: -v
+==70039== Use --track-origins=yes to see where uninitialised values come from
+==70039== ERROR SUMMARY: 101 errors from 2 contexts (suppressed: 0 from 0)
+=======================================================
+============== ./arqcp21222deg07  ./modulo1/ex16 =======================
+=======================================================
+Checking main.c ...
+1/3 files checked 32% done
+Checking size.c ...
+2/3 files checked 45% done
+Checking where_exists.c ...
+3/3 files checked 100% done
+======================================
+========= make ==========
+./makefile
+cc    -c -o size.o size.c
+cc    -c -o where_exists.o where_exists.c
+cc    -c -o main.o main.c
+gcc -Wall -g -o ex16 size.o where_exists.o main.o
+make: Warning: File 'ex16' has modification time 1.8 s in the future
+make: 'ex16' is up to date.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+========= gcc ==========
+========= compiling  ==========
+gcc exit code =0
+========= run ==========
+./modulo1/ex16 uses stdin
+=======================================================
+============== ./arqcp21222deg07  ./modulo1/ex17 =======================
+=======================================================
+Checking main.c ...
+1/2 files checked 80% done
+Checking swap.c ...
+2/2 files checked 100% done
+======================================
+========= make ==========
+========= gcc ==========
+========= compiling  ==========
+gcc exit code =0
+========= run ==========
+Running ./modulo1/ex17
+==70083== Memcheck, a memory error detector
+==70083== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==70083== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==70083== Command: ./a.out
+==70083== 
+First array: [1] [3] [4] 
+Second array: [7] [6] [5] 
+First array swaped: [7] [6] [5] 
+Second array swaped: [1] [3] [4] 
+==70083== 
+==70083== HEAP SUMMARY:
+==70083==     in use at exit: 0 bytes in 0 blocks
+==70083==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==70083== 
+==70083== All heap blocks were freed -- no leaks are possible
+==70083== 
+==70083== For counts of detected and suppressed errors, rerun with: -v
+==70083== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+=======================================================
+============== ./arqcp21222deg07  ./modulo1/ex18 =======================
+=======================================================
+Checking compress_shorts.c ...
+1/2 files checked 44% done
+Checking main.c ...
+[main.c:11]: (error) Array 'arrayOfIntegers[2]' accessed at index 3, which is out of bounds.
+2/2 files checked 100% done
+======================================
+========= make ==========
+./makefile
+cc    -c -o compress_shorts.o compress_shorts.c
+cc    -c -o main.o main.c
+gcc -Wall -g -o ex18 compress_shorts.o main.o
+make: Warning: File 'ex18' has modification time 1.8 s in the future
+make: 'ex18' is up to date.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+========= gcc ==========
+========= compiling  ==========
+gcc exit code =0
+========= run ==========
+Running ./modulo1/ex18
+==70110== Memcheck, a memory error detector
+==70110== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==70110== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==70110== Command: ./a.out
+==70110== 
+131073 262147 131073 262147 ==70110== 
+==70110== HEAP SUMMARY:
+==70110==     in use at exit: 0 bytes in 0 blocks
+==70110==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==70110== 
+==70110== All heap blocks were freed -- no leaks are possible
+==70110== 
+==70110== For counts of detected and suppressed errors, rerun with: -v
+==70110== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+=======================================================
+============== ./arqcp21222deg07  ./modulo1/ex19 =======================
+=======================================================
+Checking cont_string.c ...
+1/3 files checked 13% done
+Checking find_word.c ...
+2/3 files checked 72% done
+Checking main.c ...
+3/3 files checked 100% done
+======================================
+========= make ==========
+./makefile
+gcc -c -g -Wall find_word.c -o find_word.o
+gcc -c -g -Wall main.c -o main.o
+gcc -c -g -Wall cont_string.c -o cont_string.o
+gcc -c -g -Wall find_word.c -o find_word.o
+gcc -c -g -Wall main.c -o main.o
+gcc -c -g -Wall cont_string.c -o cont_string.o
+========= gcc ==========
+========= compiling  ==========
+gcc exit code =0
+========= run ==========
+Running ./modulo1/ex19
+==70148== Memcheck, a memory error detector
+==70148== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==70148== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==70148== Command: ./a.out
+==70148== 
+0x1fff0000e0
+==70148== 
+==70148== HEAP SUMMARY:
+==70148==     in use at exit: 0 bytes in 0 blocks
+==70148==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==70148== 
+==70148== All heap blocks were freed -- no leaks are possible
+==70148== 
+==70148== For counts of detected and suppressed errors, rerun with: -v
+==70148== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+=======================================================
+============== ./arqcp21222deg07  ./modulo1/ex20 =======================
+=======================================================
+Checking cont_string.c ...
+1/4 files checked 9% done
+Checking find_all_words.c ...
+[find_all_words.c:6]: (error) Uninitialized variable: p
+2/4 files checked 31% done
+Checking find_word.c ...
+3/4 files checked 74% done
+Checking main.c ...
+4/4 files checked 100% done
+======================================
+========= make ==========
+./makefile
+cc    -c -o cont_string.o cont_string.c
+cc    -c -o find_word.o find_word.c
+cc    -c -o find_all_words.o find_all_words.c
+cc    -c -o main.o main.c
+gcc -Wall -g -o ex20 cont_string.o find_word.o find_all_words.o main.o
+make: Warning: File 'ex20' has modification time 1.8 s in the future
+make: 'ex20' is up to date.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+========= gcc ==========
+========= compiling  ==========
+gcc exit code =0
+========= run ==========
+Running ./modulo1/ex20
+==70185== Memcheck, a memory error detector
+==70185== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==70185== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==70185== Command: ./a.out
+==70185== 
+==70185== Conditional jump or move depends on uninitialised value(s)
+==70185==    at 0x1091C3: find_all_words (find_all_words.c:6)
+==70185==    by 0x10929C: main (main.c:13)
+==70185== 
+==70185== Conditional jump or move depends on uninitialised value(s)
+==70185==    at 0x48AA170: vfprintf (vfprintf.c:1638)
+==70185==    by 0x48AC865: buffered_vfprintf (vfprintf.c:2322)
+==70185==    by 0x48A9EB1: vfprintf (vfprintf.c:1296)
+==70185==    by 0x48B2605: printf (printf.c:33)
+==70185==    by 0x1092D0: main (main.c:16)
+==70185== 
+(null) 
+0x1fff0000a0 
+==70185== Use of uninitialised value of size 8
+==70185==    at 0x4838CC2: __strlen_sse2 (vg_replace_strmem.c:462)
+==70185==    by 0x48AB9EE: vfprintf (vfprintf.c:1638)
+==70185==    by 0x48AC865: buffered_vfprintf (vfprintf.c:2322)
+==70185==    by 0x48A9EB1: vfprintf (vfprintf.c:1296)
+==70185==    by 0x48B2605: printf (printf.c:33)
+==70185==    by 0x1092D0: main (main.c:16)
+==70185== 
+==70185== Use of uninitialised value of size 8
+==70185==    at 0x4838CD4: __strlen_sse2 (vg_replace_strmem.c:462)
+==70185==    by 0x48AB9EE: vfprintf (vfprintf.c:1638)
+==70185==    by 0x48AC865: buffered_vfprintf (vfprintf.c:2322)
+==70185==    by 0x48A9EB1: vfprintf (vfprintf.c:1296)
+==70185==    by 0x48B2605: printf (printf.c:33)
+==70185==    by 0x1092D0: main (main.c:16)
+==70185== 
+==70185== Use of uninitialised value of size 8
+==70185==    at 0x48D78D0: _IO_default_xsputn (genops.c:394)
+==70185==    by 0x48D78D0: _IO_default_xsputn (genops.c:370)
+==70185==    by 0x48AA1FA: vfprintf (vfprintf.c:1638)
+==70185==    by 0x48AC865: buffered_vfprintf (vfprintf.c:2322)
+==70185==    by 0x48A9EB1: vfprintf (vfprintf.c:1296)
+==70185==    by 0x48B2605: printf (printf.c:33)
+==70185==    by 0x1092D0: main (main.c:16)
+==70185== 
+==70185== Use of uninitialised value of size 8
+==70185==    at 0x48D78DF: _IO_default_xsputn (genops.c:393)
+==70185==    by 0x48D78DF: _IO_default_xsputn (genops.c:370)
+==70185==    by 0x48AA1FA: vfprintf (vfprintf.c:1638)
+==70185==    by 0x48AC865: buffered_vfprintf (vfprintf.c:2322)
+==70185==    by 0x48A9EB1: vfprintf (vfprintf.c:1296)
+==70185==    by 0x48B2605: printf (printf.c:33)
+==70185==    by 0x1092D0: main (main.c:16)
+==70185== 
+�(�� 
+0x1fff0000a8 
+==70185== 
+==70185== HEAP SUMMARY:
+==70185==     in use at exit: 0 bytes in 0 blocks
+==70185==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==70185== 
+==70185== All heap blocks were freed -- no leaks are possible
+==70185== 
+==70185== For counts of detected and suppressed errors, rerun with: -v
+==70185== Use --track-origins=yes to see where uninitialised values come from
+==70185== ERROR SUMMARY: 12 errors from 6 contexts (suppressed: 0 from 0)
+Finished program compiling
+find: ‘./modulo1’: No such file or directory
+find: ‘./modulo1’: No such file or directory
+#########################################################
+#########################################################
+ Unit tests on ./arqcp21222deg07 
+ Unit tests on arqcp21222deg07: 
+#########################################################
+Will test :   
+./utests/modulo1/ex02
+./utests/modulo1/ex03
+./utests/modulo1/ex04
+./utests/modulo1/ex05
+./utests/modulo1/ex06
+./utests/modulo1/ex07
+./utests/modulo1/ex08
+./utests/modulo1/ex09
+./utests/modulo1/ex10
+./utests/modulo1/ex11
+./utests/modulo1/ex12
+./utests/modulo1/ex13
+./utests/modulo1/ex14
+./utests/modulo1/ex16
+./utests/modulo1/ex17
+./utests/modulo1/ex18
+./utests/modulo1/ex19
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo1/ex02 ====
+=======================================================
+rm -f prog *.o 	
+gcc -m64  -I ../..  -Wall -g -c main.c 
+gcc -m64   -Wall -g -c /media/sf_work/2021/arqcp21222deg07/modulo1/ex02/copy_vec.c /media/sf_work/2021/arqcp21222deg07/modulo1/ex02/print_vec.c			 
+make: Warning: File 'print_vec.o' has modification time 1.8 s in the future
+gcc -m64  -Wall -g copy_vec.o print_vec.o   main.o ../../unity.o -o prog  
+./prog 
+-1431655766 -1431655766 -1431655766 main.c:81:test_NullVector:PASS
+1 -1431655766 -1431655766 main.c:82:test_Vector_One:PASS
+-1 0 2 main.c:83:test_Vector_Three:PASS
+-1 -1 -1 main.c:84:test_Vector_Four:PASS
+0 1 2 main.c:85:test_Vector_Nine:PASS
+
+-----------------------
+5 Tests 0 Failures 0 Ignored 
+OK
+make: warning:  Clock skew detected.  Your build may be incomplete.
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo1/ex03 ====
+=======================================================
+rm -f prog *.o 	
+gcc -m64  -I ../..  -Wall -g -c main.c 
+gcc -m64   -Wall -g -c /media/sf_work/2021/arqcp21222deg07/modulo1/ex03/sum_even.c			 
+gcc -m64  -Wall -g sum_even.o   main.o ../../unity.o -o prog  
+./prog 
+main.c:82:test_NullVector:PASS
+main.c:83:test_Vector_One:PASS
+main.c:84:test_Vector_One_Zero_MinusOne:PASS
+main.c:85:test_Vector_Minus_Three:PASS
+main.c:86:test_Vector_Nine:PASS
+
+-----------------------
+5 Tests 0 Failures 0 Ignored 
+OK
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo1/ex04 ====
+=======================================================
+rm -f prog *.o 	
+gcc -m64  -I ../..  -Wall -g -c main.c 
+gcc -m64   -Wall -g -c /media/sf_work/2021/arqcp21222deg07/modulo1/ex04/upper1.c			 
+gcc -m64  -Wall -g upper1.o   main.o ../../unity.o -o prog  
+./prog 
+main.c:66:test_Hex:PASS
+main.c:67:test_AbcD:PASS
+main.c:68:test_Abba:PASS
+main.c:69:test_Spaces:PASS
+main.c:70:test_NullString:PASS
+
+-----------------------
+5 Tests 0 Failures 0 Ignored 
+OK
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo1/ex05 ====
+=======================================================
+rm -f prog *.o 	
+gcc -m64  -I ../..  -Wall -g -c main.c 
+gcc -m64   -Wall -g -c /media/sf_work/2021/arqcp21222deg07/modulo1/ex05/upper2.c			 
+gcc -m64  -Wall -g upper2.o   main.o ../../unity.o -o prog  
+./prog 
+main.c:67:test_Hex:PASS
+main.c:68:test_AbcD:PASS
+main.c:69:test_Abba:PASS
+main.c:70:test_Spaces:PASS
+main.c:71:test_NullString:PASS
+
+-----------------------
+5 Tests 0 Failures 0 Ignored 
+OK
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo1/ex06 ====
+=======================================================
+rm -f prog *.o 	
+gcc -m64  -I ../..  -Wall -g -c main.c 
+gcc -m64   -Wall -g -c /media/sf_work/2021/arqcp21222deg07/modulo1/ex06/power_ref.c			 
+gcc -m64  -Wall -g power_ref.o   main.o ../../unity.o -o prog  
+./prog 
+main.c:66:test_Zero:PASS
+main.c:67:test_Minus:PASS
+main.c:68:test_One:PASS
+main.c:69:test_Minus3:PASS
+main.c:70:test_Plus3:PASS
+
+-----------------------
+5 Tests 0 Failures 0 Ignored 
+OK
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo1/ex07 ====
+=======================================================
+rm -f prog *.o 	
+gcc -m64  -I ../..  -Wall -g -c main.c 
+gcc -m64   -Wall -g -c /media/sf_work/2021/arqcp21222deg07/modulo1/ex07/array_sort1.c			 
+gcc -m64  -Wall -g array_sort1.o   main.o ../../unity.o -o prog  
+./prog 
+main.c:67:test_NullVec:PASS
+main.c:68:test_One:PASS
+main.c:69:test_Zero:PASS
+main.c:70:test_Minus3:PASS
+main.c:71:test_Ten:PASS
+
+-----------------------
+5 Tests 0 Failures 0 Ignored 
+OK
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo1/ex08 ====
+=======================================================
+rm -f prog *.o 	
+gcc -m64  -I ../..  -Wall -g -c main.c 
+gcc -m64   -Wall -g -c /media/sf_work/2021/arqcp21222deg07/modulo1/ex08/array_sort2.c			 
+gcc -m64  -Wall -g array_sort2.o   main.o ../../unity.o -o prog  
+./prog 
+main.c:67:test_NullVec:PASS
+main.c:68:test_One:PASS
+main.c:69:test_Zero:PASS
+main.c:70:test_Minus3:PASS
+main.c:71:test_Ten:PASS
+
+-----------------------
+5 Tests 0 Failures 0 Ignored 
+OK
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo1/ex09 ====
+=======================================================
+rm -f prog *.o 	
+gcc -m64  -I ../..  -Wall -g -c main.c 
+gcc -m64   -Wall -g -c /media/sf_work/2021/arqcp21222deg07/modulo1/ex09/sort_without_reps.c			 
+gcc -m64  -Wall -g sort_without_reps.o   main.o ../../unity.o -o prog  
+./prog 
+main.c:72:test_NullVec:PASS
+main.c:73:test_One:PASS
+main.c:74:test_Three:PASS
+main.c:75:test_Minus3:PASS
+main.c:76:test_Ten:PASS
+
+-----------------------
+5 Tests 0 Failures 0 Ignored 
+OK
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo1/ex10 ====
+=======================================================
+rm -f prog *.o 	
+gcc -m64  -I ../..  -Wall -g -c main.c 
+gcc -m64   -Wall -g -c /media/sf_work/2021/arqcp21222deg07/modulo1/ex10/odd_sum.c			 
+gcc -m64  -Wall -g odd_sum.o   main.o ../../unity.o -o prog  
+./prog 
+main.c:66:test_NullVec:PASS
+main.c:67:test_One:PASS
+main.c:68:test_Two:PASS
+main.c:69:test_Minus3:PASS
+main.c:70:test_Ten:PASS
+
+-----------------------
+5 Tests 0 Failures 0 Ignored 
+OK
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo1/ex11 ====
+=======================================================
+rm -f prog *.o 	
+gcc -m64  -I ../..  -Wall -g -c main.c 
+gcc -m64   -Wall -g -c /media/sf_work/2021/arqcp21222deg07/modulo1/ex11/cont.c /media/sf_work/2021/arqcp21222deg07/modulo1/ex11/lowerToUpperCase.c /media/sf_work/2021/arqcp21222deg07/modulo1/ex11/palindrome.c			 
+make: Warning: File 'lowerToUpperCase.o' has modification time 1.8 s in the future
+gcc -m64  -Wall -g cont.o lowerToUpperCase.o palindrome.o   main.o ../../unity.o -o prog  
+./prog 
+main.c:31:test_Null:FAIL: Expected 0 Was 1
+main.c:72:test_One:PASS
+main.c:73:test_Ab:PASS
+main.c:31:test_Zero:FAIL: Expected 0 Was 1
+main.c:31:test_Case1:FAIL: Expected 1 Was 0
+main.c:31:test_Case2:FAIL: Expected 1 Was 0
+main.c:31:test_Case3:FAIL: Expected 1 Was 0
+
+-----------------------
+7 Tests 5 Failures 0 Ignored 
+FAIL
+make: *** [Makefile:57: run] Error 5
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo1/ex12 ====
+=======================================================
+rm -f prog *.o 	
+gcc -m64  -I ../..  -Wall -g -c main.c 
+gcc -m64   -Wall -g -c /media/sf_work/2021/arqcp21222deg07/modulo1/ex12/capitalize.c /media/sf_work/2021/arqcp21222deg07/modulo1/ex12/verify.c			 
+make: Warning: File 'verify.o' has modification time 1.8 s in the future
+gcc -m64  -Wall -g capitalize.o verify.o   main.o ../../unity.o -o prog  
+./prog 
+main.c:80:test_Null:PASS
+main.c:81:test_One:PASS
+main.c:82:test_Hey:PASS
+main.c:83:test_Hello:PASS
+main.c:84:test_One_Zero1:PASS
+main.c:85:test_One_Zero2:PASS
+main.c:86:test_Two:PASS
+main.c:87:test_Case1:PASS
+main.c:88:test_Case2:PASS
+
+-----------------------
+9 Tests 0 Failures 0 Ignored 
+OK
+make: warning:  Clock skew detected.  Your build may be incomplete.
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo1/ex13 ====
+=======================================================
+rm -f prog *.o 	
+gcc -m64  -I ../..  -Wall -g -c main.c 
+gcc -m64   -Wall -g -c /media/sf_work/2021/arqcp21222deg07/modulo1/ex13/where_is.c			 
+gcc -m64  -Wall -g where_is.o   main.o ../../unity.o -o prog  
+./prog 
+main.c:73:test_Null:PASS
+main.c:74:test_One:PASS
+main.c:75:test_Three:PASS
+main.c:76:test_Three_Interval:PASS
+main.c:77:test_Three_Middle:PASS
+
+-----------------------
+5 Tests 0 Failures 0 Ignored 
+OK
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo1/ex14 ====
+=======================================================
+rm -f prog *.o 	
+gcc -m64  -I ../..  -Wall -g -c main.c 
+gcc -m64   -Wall -g -c /media/sf_work/2021/arqcp21222deg07/modulo1/ex14/frequencies.c			 
+gcc -m64  -Wall -g frequencies.o   main.o ../../unity.o -o prog  
+./prog 
+main.c:81:test_Null:PASS
+main.c:82:test_One:PASS
+main.c:83:test_Case1:PASS
+main.c:84:test_Case2:PASS
+
+-----------------------
+4 Tests 0 Failures 0 Ignored 
+OK
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo1/ex16 ====
+=======================================================
+rm -f prog *.o 	
+gcc -m64  -I ../..  -Wall -g -c main.c 
+gcc -m64   -Wall -g -c /media/sf_work/2021/arqcp21222deg07/modulo1/ex16/size.c /media/sf_work/2021/arqcp21222deg07/modulo1/ex16/where_exists.c			 
+make: Warning: File 'where_exists.o' has modification time 1.8 s in the future
+gcc -m64  -Wall -g size.o where_exists.o   main.o ../../unity.o -o prog  
+./prog 
+res = (nil) 
+main.c:79:test_Null4:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+make: warning:  Clock skew detected.  Your build may be incomplete.
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo1/ex17 ====
+=======================================================
+rm -f prog *.o 	
+gcc -m64  -I ../..  -Wall -g -c main.c 
+gcc -m64   -Wall -g -c /media/sf_work/2021/arqcp21222deg07/modulo1/ex17/swap.c			 
+gcc -m64  -Wall -g swap.o   main.o ../../unity.o -o prog  
+./prog 
+main.c:69:test_NullVec:PASS
+main.c:70:test_One:PASS
+main.c:71:test_Three:PASS
+main.c:72:test_Four:PASS
+
+-----------------------
+4 Tests 0 Failures 0 Ignored 
+OK
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo1/ex18 ====
+=======================================================
+rm -f prog *.o 	
+gcc -m64  -I ../..  -Wall -g -c main.c 
+gcc -m64   -Wall -g -c /media/sf_work/2021/arqcp21222deg07/modulo1/ex18/compress_shorts.c			 
+gcc -m64  -Wall -g compress_shorts.o   main.o ../../unity.o -o prog  
+./prog 
+main.c:69:test_NullVec:PASS
+main.c:70:test_One:PASS
+main.c:71:test_Three:PASS
+main.c:72:test_Four:PASS
+
+-----------------------
+4 Tests 0 Failures 0 Ignored 
+OK
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo1/ex19 ====
+=======================================================
+rm -f prog *.o 	
+gcc -m64  -I ../..  -Wall -g -c main.c 
+gcc -m64   -Wall -g -c /media/sf_work/2021/arqcp21222deg07/modulo1/ex19/cont_string.c /media/sf_work/2021/arqcp21222deg07/modulo1/ex19/find_word.c			 
+make: Warning: File 'find_word.o' has modification time 1.9 s in the future
+gcc -m64  -Wall -g cont_string.o find_word.o   main.o ../../unity.o -o prog  
+./prog 
+main.c:26:test_Two:FAIL: Expected 0x000055648F82A015 Was 0x0000000000000000
+main.c:26:test_Four:FAIL: Expected 0x000055648F82A021 Was 0x0000000000000000
+main.c:26:test_Eight:FAIL: Expected 0x000055648F82A03D Was 0x0000000000000000
+main.c:75:test_Null1:PASS
+main.c:76:test_Null2:PASS
+main.c:77:test_Null3:PASS
+main.c:78:test_Null4:PASS
+
+-----------------------
+7 Tests 3 Failures 0 Ignored 
+FAIL
+make: *** [Makefile:57: run] Error 3
+#########################################################
+Finished Unit Tests
+Number of Passed tests:  15
+#########################################################
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
