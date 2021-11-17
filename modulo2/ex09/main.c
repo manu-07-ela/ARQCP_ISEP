@@ -3,8 +3,8 @@
 
 char A = 1;
 short B = 5;
-int C = 10;
-int D = 4;
+long C = 10;
+long D = 4;
 
 int main(void) {
 
