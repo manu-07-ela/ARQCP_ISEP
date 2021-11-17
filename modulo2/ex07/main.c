@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include "asm.h"
 
-short str;
+short s1 = 2, s2 = 3;
 
 int main(void) {
 
-	printf("Type some value:");
-	scanf("%d",&str);
-	short sum = swapBytes();
+	short sum = crossSumBytes();
 	printf("%d", sum);
+
 	return 0;
 }
