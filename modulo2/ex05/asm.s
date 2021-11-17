@@ -1,10 +1,10 @@
 .section .data
-    .global str
+    .global s
 
 .section .text
     .global swapBytes
     swapBytes:
-    movw str(%rip), %bx
-    movb %bl, %ah
-    movb %bh, %al
+    movw s(%rip), %cx
+    movb %cl, %ah
+    movb %ch, %al
     ret
