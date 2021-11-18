@@ -1,6 +1,6 @@
 .section .data
     .global op1
-     .global op2
+    .global op2
 
     op3: 
         .long 
