@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "asm.h"
 
-int A = 0;
-int B = 0;
+int A = 15;
+int B = 5;
 
 int main(void){
-    int c = isMultiple();
+    char c = isMultiple();
     printf("%c\n", c);
 }

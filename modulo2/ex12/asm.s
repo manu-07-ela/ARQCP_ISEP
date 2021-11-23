@@ -11,16 +11,17 @@
         cltd
         cmpl $0, %ecx  
         je notMultiple
-        divl %ecx
+        idivl %ecx
 
         cmpl $0, %edx  
         je multiple
-        movl $0, %eax
 
     notMultiple:
         mov $0, %eax
+        jmp end
 
     multiple:
         movl $1, %eax 
     
-    ret
+    end:
+        ret
