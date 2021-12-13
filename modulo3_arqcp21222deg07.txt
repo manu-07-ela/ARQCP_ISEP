@@ -1,0 +1,577 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+#########################################################
+#########################################################
+/media/sf_work/2021/arqcp21222deg07
+#########################################################
+#########################################################
+
+#########################################################
+Git Commits
+    38	Manuela Leite
+    23	pedroccelestino
+     4	PauloFerreira
+     3	Luís Nogueira
+     1	Pedro
+   Git History:                       
+471fa92 - PauloFerreira, 23 minutes ago : Evaluation Module 2 - Limpar a.out
+c64e0e2 - PauloFerreira, 63 minutes ago : Evaluation Module 2
+ce3ac8d - pedroccelestino, 13 hours ago : modulo 3 - 5, 7 e 9
+f84ee02 - Manuela Leite, 4 days ago : Merge branch 'master' of https://bitbucket.org/orlandosousa/arqcp21222deg07
+a07925c - Manuela Leite, 4 days ago : Exercício 4 do módulo 3 com erros de segmentation fault nos testes
+f8ff169 - pedroccelestino, 4 days ago : Merge branch 'master' of https://bitbucket.org/orlandosousa/arqcp21222deg07
+7fc05e7 - pedroccelestino, 4 days ago : Exercicio 3 - Modulo 3
+9e4516d - Manuela Leite, 4 days ago : Merge branch 'master' of https://bitbucket.org/orlandosousa/arqcp21222deg07
+86b2f87 - Manuela Leite, 4 days ago : Exercício 2 - Módulo 3
+ad27aff - pedroccelestino, 11 days ago : Modulo 3 - ex01 
+#########################################################
+Solved exercises:   
+                    ./modulo3/ex01
+                    ./modulo3/ex02
+                    ./modulo3/ex03
+                    ./modulo3/ex04
+                    ./modulo3/ex05
+                    ./modulo3/ex07
+                    ./modulo3/ex09
+/media/sf_work/2021/arqcp21222deg07
+=======================================================
+============== ./arqcp21222deg07  ./modulo3/ex01 =======================
+=======================================================
+Checking main.c ...
+======================================
+========= make ==========
+./makefile
+cc    -c -o main.o main.c
+as   -o asm.o asm.s
+asm.s: Assembler messages:
+asm.s: Warning: end of file not at end of a line; newline inserted
+gcc -c -g -Wall main.c -o main.o
+gcc -c -g -Wall asm.s -o asm.o
+asm.s: Assembler messages:
+asm.s: Warning: end of file not at end of a line; newline inserted
+make: Warning: File 'main.o' has modification time 0.025 s in the future
+gcc -c -g -Wall main.c -o main.o
+gcc -c -g -Wall asm.s -o asm.o
+asm.s: Assembler messages:
+asm.s: Warning: end of file not at end of a line; newline inserted
+make: warning:  Clock skew detected.  Your build may be incomplete.
+========= gcc ==========
+========= compiling  ==========
+asm.s: Assembler messages:
+asm.s: Warning: end of file not at end of a line; newline inserted
+/usr/bin/ld: /tmp/ccxWJ4Gi.o: warning: relocation against `ptr1' in read-only section `.text'
+/usr/bin/ld: /tmp/ccxWJ4Gi.o: in function `zero_count':
+/media/sf_work/2021/arqcp21222deg07/modulo3/ex01/asm.s:9: undefined reference to `ptr1'
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+gcc exit code =1
+========= run ==========
+Running ./modulo3/ex01
+valgrind: ./a.out: No such file or directory
+=======================================================
+============== ./arqcp21222deg07  ./modulo3/ex02 =======================
+=======================================================
+Checking main.c ...
+======================================
+========= make ==========
+./makefile
+cc    -c -o main.o main.c
+as   -o asm.o asm.s
+gcc -c -g -Wall main.c -o main.o
+gcc -c -g -Wall asm.s -o asm.o
+make: Warning: File 'main.o' has modification time 0.019 s in the future
+gcc -c -g -Wall main.c -o main.o
+gcc -c -g -Wall asm.s -o asm.o
+make: warning:  Clock skew detected.  Your build may be incomplete.
+========= gcc ==========
+========= compiling  ==========
+gcc exit code =0
+========= run ==========
+Running ./modulo3/ex02
+==205501== Memcheck, a memory error detector
+==205501== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==205501== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info
+==205501== Command: ./a.out
+==205501== 
+vai
+==205501== 
+==205501== HEAP SUMMARY:
+==205501==     in use at exit: 0 bytes in 0 blocks
+==205501==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==205501== 
+==205501== All heap blocks were freed -- no leaks are possible
+==205501== 
+==205501== For lists of detected and suppressed errors, rerun with: -s
+==205501== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+=======================================================
+============== ./arqcp21222deg07  ./modulo3/ex03 =======================
+=======================================================
+Checking main.c ...
+======================================
+========= make ==========
+./makefile
+cc    -c -o main.o main.c
+as   -o asm.o asm.s
+asm.s: Assembler messages:
+asm.s: Warning: end of file not at end of a line; newline inserted
+gcc -c -g -Wall main.c -o main.o
+gcc -c -g -Wall asm.s -o asm.o
+asm.s: Assembler messages:
+asm.s: Warning: end of file not at end of a line; newline inserted
+make: Warning: File 'main.o' has modification time 0.025 s in the future
+gcc -c -g -Wall main.c -o main.o
+gcc -c -g -Wall asm.s -o asm.o
+asm.s: Assembler messages:
+asm.s: Warning: end of file not at end of a line; newline inserted
+make: warning:  Clock skew detected.  Your build may be incomplete.
+========= gcc ==========
+========= compiling  ==========
+asm.s: Assembler messages:
+asm.s: Warning: end of file not at end of a line; newline inserted
+gcc exit code =0
+========= run ==========
+Running ./modulo3/ex03
+==205530== Memcheck, a memory error detector
+==205530== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==205530== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info
+==205530== Command: ./a.out
+==205530== 
+String 1: Viva a vida
+String 2: Biba a bida
+==205530== 
+==205530== HEAP SUMMARY:
+==205530==     in use at exit: 0 bytes in 0 blocks
+==205530==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==205530== 
+==205530== All heap blocks were freed -- no leaks are possible
+==205530== 
+==205530== For lists of detected and suppressed errors, rerun with: -s
+==205530== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+=======================================================
+============== ./arqcp21222deg07  ./modulo3/ex04 =======================
+=======================================================
+Checking main.c ...
+======================================
+========= make ==========
+./makefile
+cc    -c -o main.o main.c
+as   -o asm.o asm.s
+gcc -c -g -Wall main.c -o main.o
+gcc -c -g -Wall asm.s -o asm.o
+make: Warning: File 'main.o' has modification time 0.026 s in the future
+gcc -c -g -Wall main.c -o main.o
+gcc -c -g -Wall asm.s -o asm.o
+make: warning:  Clock skew detected.  Your build may be incomplete.
+========= gcc ==========
+========= compiling  ==========
+gcc exit code =0
+========= run ==========
+Running ./modulo3/ex04
+==205561== Memcheck, a memory error detector
+==205561== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==205561== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info
+==205561== Command: ./a.out
+==205561== 
+2
+3
+4
+5
+6
+==205561== 
+==205561== HEAP SUMMARY:
+==205561==     in use at exit: 0 bytes in 0 blocks
+==205561==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==205561== 
+==205561== All heap blocks were freed -- no leaks are possible
+==205561== 
+==205561== For lists of detected and suppressed errors, rerun with: -s
+==205561== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+=======================================================
+============== ./arqcp21222deg07  ./modulo3/ex05 =======================
+=======================================================
+Checking main.c ...
+======================================
+========= make ==========
+./makefile
+cc    -c -o main.o main.c
+main.c: In function ‘main’:
+main.c:12:14: warning: implicit declaration of function ‘vec_avg’ [-Wimplicit-function-declaration]
+   12 |  int media = vec_avg();
+      |              ^~~~~~~
+as   -o asm.o asm.s
+asm.s: Assembler messages:
+asm.s:21: Warning: end of file not at end of a line; newline inserted
+as   -o avrg.o avrg.s
+gcc -c -g -Wall main.c -o main.o
+main.c: In function ‘main’:
+main.c:12:14: warning: implicit declaration of function ‘vec_avg’ [-Wimplicit-function-declaration]
+   12 |  int media = vec_avg();
+      |              ^~~~~~~
+gcc -c -g -Wall asm.s -o asm.o
+asm.s: Assembler messages:
+asm.s:21: Warning: end of file not at end of a line; newline inserted
+gcc -c -g -Wall avrg.s -o avrg.o
+make: Warning: File 'main.o' has modification time 0.0028 s in the future
+gcc -c -g -Wall main.c -o main.o
+main.c: In function ‘main’:
+main.c:12:14: warning: implicit declaration of function ‘vec_avg’ [-Wimplicit-function-declaration]
+   12 |  int media = vec_avg();
+      |              ^~~~~~~
+gcc -c -g -Wall asm.s -o asm.o
+asm.s: Assembler messages:
+asm.s:21: Warning: end of file not at end of a line; newline inserted
+gcc -c -g -Wall avrg.s -o avrg.o
+make: warning:  Clock skew detected.  Your build may be incomplete.
+========= gcc ==========
+========= compiling  ==========
+asm.s: Assembler messages:
+asm.s:21: Warning: end of file not at end of a line; newline inserted
+main.c: In function ‘main’:
+main.c:12:14: warning: implicit declaration of function ‘vec_avg’ [-Wimplicit-function-declaration]
+   12 |  int media = vec_avg();
+      |              ^~~~~~~
+gcc exit code =0
+========= run ==========
+Running ./modulo3/ex05
+==205598== Memcheck, a memory error detector
+==205598== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==205598== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info
+==205598== Command: ./a.out
+==205598== 
+Soma: 55 
+Media: 5 
+==205598== 
+==205598== HEAP SUMMARY:
+==205598==     in use at exit: 0 bytes in 0 blocks
+==205598==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==205598== 
+==205598== All heap blocks were freed -- no leaks are possible
+==205598== 
+==205598== For lists of detected and suppressed errors, rerun with: -s
+==205598== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+=======================================================
+============== ./arqcp21222deg07  ./modulo3/ex07 =======================
+=======================================================
+Checking main.c ...
+======================================
+========= make ==========
+./makefile
+cc    -c -o main.o main.c
+as   -o asm.o asm.s
+asm.s: Assembler messages:
+asm.s: Warning: end of file not at end of a line; newline inserted
+gcc -c -g -Wall main.c -o main.o
+gcc -c -g -Wall asm.s -o asm.o
+asm.s: Assembler messages:
+asm.s: Warning: end of file not at end of a line; newline inserted
+make: Warning: File 'main.o' has modification time 0.025 s in the future
+gcc -c -g -Wall main.c -o main.o
+gcc -c -g -Wall asm.s -o asm.o
+asm.s: Assembler messages:
+asm.s: Warning: end of file not at end of a line; newline inserted
+make: warning:  Clock skew detected.  Your build may be incomplete.
+========= gcc ==========
+========= compiling  ==========
+asm.s: Assembler messages:
+asm.s: Warning: end of file not at end of a line; newline inserted
+gcc exit code =0
+========= run ==========
+Running ./modulo3/ex07
+==205629== Memcheck, a memory error detector
+==205629== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==205629== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info
+==205629== Command: ./a.out
+==205629== 
+String: abba
+Occurrences: 0
+==205629== 
+==205629== HEAP SUMMARY:
+==205629==     in use at exit: 0 bytes in 0 blocks
+==205629==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==205629== 
+==205629== All heap blocks were freed -- no leaks are possible
+==205629== 
+==205629== For lists of detected and suppressed errors, rerun with: -s
+==205629== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+=======================================================
+============== ./arqcp21222deg07  ./modulo3/ex09 =======================
+=======================================================
+Checking main.c ...
+======================================
+========= make ==========
+./makefile
+gcc -g -Wall -c asm.s -o asm.o
+gcc -g -Wall -c main.c -o main.o
+main.c: In function ‘main’:
+main.c:17:12: warning: format ‘%hu’ expects argument of type ‘int’, but argument 2 has type ‘short int *’ [-Wformat=]
+   17 |  printf("%hu\n",n);
+      |          ~~^    ~
+      |            |    |
+      |            int  short int *
+      |          %hn
+gcc asm.o main.o -o ex09
+/usr/bin/ld: warning: size of symbol `ptrvec' changed from 2 in asm.o to 8 in main.o
+make: Warning: File 'ex09' has modification time 0.043 s in the future
+make: 'ex09' is up to date.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+========= gcc ==========
+========= compiling  ==========
+main.c: In function ‘main’:
+main.c:17:12: warning: format ‘%hu’ expects argument of type ‘int’, but argument 2 has type ‘short int *’ [-Wformat=]
+   17 |  printf("%hu\n",n);
+      |          ~~^    ~
+      |            |    |
+      |            int  short int *
+      |          %hn
+/usr/bin/ld: warning: size of symbol `ptrvec' changed from 2 in /tmp/ccSaXGHc.o to 8 in /tmp/cc3oiSob.o
+gcc exit code =0
+========= run ==========
+Running ./modulo3/ex09
+==205654== Memcheck, a memory error detector
+==205654== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==205654== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info
+==205654== Command: ./a.out
+==205654== 
+Vetor Antigo:
+7
+7
+9
+10
+2
+49218
+==205654== 
+==205654== HEAP SUMMARY:
+==205654==     in use at exit: 0 bytes in 0 blocks
+==205654==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==205654== 
+==205654== All heap blocks were freed -- no leaks are possible
+==205654== 
+==205654== For lists of detected and suppressed errors, rerun with: -s
+==205654== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+Finished program compiling
+find: ‘./modulo3’: No such file or directory
+find: ‘./modulo3’: No such file or directory
+#########################################################
+#########################################################
+ Unit tests on ./arqcp21222deg07 
+ Unit tests on arqcp21222deg07: 
+#########################################################
+Will test :   
+./utests/modulo3/ex01
+./utests/modulo3/ex02
+./utests/modulo3/ex03
+./utests/modulo3/ex04
+./utests/modulo3/ex05
+./utests/modulo3/ex06
+./utests/modulo3/ex07
+./utests/modulo3/ex08
+./utests/modulo3/ex09
+./utests/modulo3/ex10
+./utests/modulo3/ex11
+./utests/modulo3/ex12
+./utests/modulo3/ex13
+./utests/modulo3/ex14
+./utests/modulo3/ex15
+./utests/modulo3/ex16
+./utests/modulo3/ex17
+./utests/modulo3/ex18
+./utests/modulo3/ex19
+./utests/modulo3/ex20
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo3/ex01 ====
+=======================================================
+rm -f prog *.o 	
+gcc -m64   -Wall -g -c main.c 
+gcc -m64   -Wall -g -c callfunc.s 
+gcc -m64   -Wall -g -c /media/sf_work/2021/arqcp21222deg07/modulo3/ex01/asm.s			 
+/media/sf_work/2021/arqcp21222deg07/modulo3/ex01/asm.s: Assembler messages:
+/media/sf_work/2021/arqcp21222deg07/modulo3/ex01/asm.s: Warning: end of file not at end of a line; newline inserted
+gcc -m64   -Wall -g asm.o   main.o callfunc.o ../../unity.o -o prog
+./prog 
+main.c:73:test_None:PASS
+main.c:74:test_Hello:PASS
+main.c:75:test_Three:PASS
+main.c:76:test_ThreeL:PASS
+main.c:77:test_NullString:PASS
+
+-----------------------
+5 Tests 0 Failures 0 Ignored 
+OK
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo3/ex02 ====
+=======================================================
+rm -f prog *.o 	
+gcc -m64   -Wall -g -c main.c 
+gcc -m64   -Wall -g -c callfunc.s 
+gcc -m64   -Wall -g -c /media/sf_work/2021/arqcp21222deg07/modulo3/ex02/asm.s			 
+gcc -m64   -Wall -g asm.o   main.o callfunc.o ../../unity.o -o prog
+./prog 
+main.c:41:test_hey:FAIL: Expected 0x00007FFF0DC99EC1 Was 0x00007FFF0DC99F31
+main.c:41:test_hello:FAIL: Expected 0x00007FFF0DC99EC1 Was 0x00007FFF0DC99F31
+main.c:41:test_One_b:FAIL: Expected 0x00007FFF0DC99EC1 Was 0x00007FFF0DC99F31
+main.c:41:test_Two_b:FAIL: Expected 0x00007FFF0DC99EC1 Was 0x00007FFF0DC99F31
+main.c:41:test_Two_B:FAIL: Expected 0x00007FFF0DC99EC1 Was 0x00007FFF0DC99F31
+main.c:41:test_Two_v:FAIL: Expected 0x00007FFF0DC99EC1 Was 0x00007FFF0DC99F31
+main.c:41:test_NullString:FAIL: Expected 0x00007FFF0DC99EC1 Was 0x00007FFF0DC99F31
+
+-----------------------
+7 Tests 7 Failures 0 Ignored 
+FAIL
+make: *** [Makefile:61: run] Error 7
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo3/ex03 ====
+=======================================================
+rm -f prog *.o 	
+gcc -m64   -Wall -g -c main.c 
+gcc -m64   -Wall -g -c callfunc.s 
+gcc -m64   -Wall -g -c /media/sf_work/2021/arqcp21222deg07/modulo3/ex03/asm.s			 
+/media/sf_work/2021/arqcp21222deg07/modulo3/ex03/asm.s: Assembler messages:
+/media/sf_work/2021/arqcp21222deg07/modulo3/ex03/asm.s: Warning: end of file not at end of a line; newline inserted
+gcc -m64   -Wall -g asm.o   main.o callfunc.o ../../unity.o -o prog
+./prog 
+main.c:86:test_hey:PASS
+main.c:87:test_hello:PASS
+main.c:88:test_One_v:PASS
+main.c:89:test_One_b:PASS
+main.c:90:test_Two_v:PASS
+main.c:91:test_Two_B:PASS
+main.c:92:test_Three_v:PASS
+main.c:93:test_NullString:PASS
+
+-----------------------
+8 Tests 0 Failures 0 Ignored 
+OK
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo3/ex04 ====
+=======================================================
+rm -f prog *.o 	
+gcc -m64   -Wall -g -c main.c 
+gcc -m64   -Wall -g -c callfunc.s 
+gcc -m64   -Wall -g -c /media/sf_work/2021/arqcp21222deg07/modulo3/ex04/asm.s			 
+gcc -m64   -Wall -g asm.o   main.o callfunc.o ../../unity.o -o prog
+./prog 
+make: *** [Makefile:61: run] Segmentation fault
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo3/ex05 ====
+=======================================================
+rm -f prog *.o 	
+gcc -m64   -Wall -g -c main.c 
+gcc -m64   -Wall -g -c callfunc.s 
+gcc -m64   -Wall -g -c /media/sf_work/2021/arqcp21222deg07/modulo3/ex05/asm.s /media/sf_work/2021/arqcp21222deg07/modulo3/ex05/avrg.s			 
+/media/sf_work/2021/arqcp21222deg07/modulo3/ex05/asm.s: Assembler messages:
+/media/sf_work/2021/arqcp21222deg07/modulo3/ex05/asm.s:21: Warning: end of file not at end of a line; newline inserted
+make: Warning: File 'avrg.o' has modification time 0.052 s in the future
+gcc -m64   -Wall -g asm.o avrg.o   main.o callfunc.o ../../unity.o -o prog
+./prog 
+make: *** [Makefile:61: run] Segmentation fault
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo3/ex06 ====
+=======================================================
+find: ‘/media/sf_work/2021/arqcp21222deg07/modulo3/ex06’: No such file or directory
+Makefile:28: *** Could not find source files in /media/sf_work/2021/arqcp21222deg07/modulo3/ex06    .  Stop.
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo3/ex07 ====
+=======================================================
+rm -f prog *.o 	
+gcc -m64   -Wall -g -c main.c 
+gcc -m64   -Wall -g -c callfunc.s 
+gcc -m64   -Wall -g -c /media/sf_work/2021/arqcp21222deg07/modulo3/ex07/asm.s			 
+/media/sf_work/2021/arqcp21222deg07/modulo3/ex07/asm.s: Assembler messages:
+/media/sf_work/2021/arqcp21222deg07/modulo3/ex07/asm.s: Warning: end of file not at end of a line; newline inserted
+gcc -m64   -Wall -g asm.o   main.o callfunc.o ../../unity.o -o prog
+./prog 
+main.c:68:test_None:PASS
+main.c:36:test_Hex:FAIL: Expected 3 Was 0
+main.c:70:test_Spaces:PASS
+main.c:36:test_Abba:FAIL: Expected 2 Was 0
+main.c:36:test_ABBA:FAIL: Expected 4 Was 0
+
+-----------------------
+5 Tests 3 Failures 0 Ignored 
+FAIL
+make: *** [Makefile:61: run] Error 3
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo3/ex08 ====
+=======================================================
+find: ‘/media/sf_work/2021/arqcp21222deg07/modulo3/ex08’: No such file or directory
+Makefile:28: *** Could not find source files in /media/sf_work/2021/arqcp21222deg07/modulo3/ex08    .  Stop.
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo3/ex09 ====
+=======================================================
+rm -f prog *.o 	
+gcc -m64   -Wall -g -c main.c 
+gcc -m64   -Wall -g -c callfunc.s 
+gcc -m64   -Wall -g -c /media/sf_work/2021/arqcp21222deg07/modulo3/ex09/asm.s			 
+gcc -m64   -Wall -g asm.o   main.o callfunc.o ../../unity.o -o prog
+/usr/bin/ld: warning: size of symbol `ptrvec' changed from 2 in asm.o to 8 in main.o
+./prog 
+main.c:81:test_NullVector:PASS
+main.c:82:test_One:PASS
+main.c:83:test_Zero:PASS
+main.c:43:test_Minus3:FAIL: Expected 0x00007FFC19789BE8 Was 0x00007FFC19789BE6
+main.c:85:test_Five:PASS
+main.c:43:test_NotFound:FAIL: Expected 0x0000000000000000 Was 0x00007FFC19789CAE
+
+-----------------------
+6 Tests 2 Failures 0 Ignored 
+FAIL
+make: *** [Makefile:61: run] Error 2
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo3/ex10 ====
+=======================================================
+find: ‘/media/sf_work/2021/arqcp21222deg07/modulo3/ex10’: No such file or directory
+Makefile:28: *** Could not find source files in /media/sf_work/2021/arqcp21222deg07/modulo3/ex10    .  Stop.
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo3/ex11 ====
+=======================================================
+find: ‘/media/sf_work/2021/arqcp21222deg07/modulo3/ex11’: No such file or directory
+Makefile:28: *** Could not find source files in /media/sf_work/2021/arqcp21222deg07/modulo3/ex11    .  Stop.
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo3/ex12 ====
+=======================================================
+find: ‘/media/sf_work/2021/arqcp21222deg07/modulo3/ex12’: No such file or directory
+Makefile:28: *** Could not find source files in /media/sf_work/2021/arqcp21222deg07/modulo3/ex12    .  Stop.
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo3/ex13 ====
+=======================================================
+find: ‘/media/sf_work/2021/arqcp21222deg07/modulo3/ex13’: No such file or directory
+Makefile:28: *** Could not find source files in /media/sf_work/2021/arqcp21222deg07/modulo3/ex13    .  Stop.
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo3/ex14 ====
+=======================================================
+find: ‘/media/sf_work/2021/arqcp21222deg07/modulo3/ex14’: No such file or directory
+Makefile:28: *** Could not find source files in /media/sf_work/2021/arqcp21222deg07/modulo3/ex14    .  Stop.
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo3/ex15 ====
+=======================================================
+find: ‘/media/sf_work/2021/arqcp21222deg07/modulo3/ex15’: No such file or directory
+Makefile:28: *** Could not find source files in /media/sf_work/2021/arqcp21222deg07/modulo3/ex15    .  Stop.
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo3/ex16 ====
+=======================================================
+find: ‘/media/sf_work/2021/arqcp21222deg07/modulo3/ex16’: No such file or directory
+Makefile:28: *** Could not find source files in /media/sf_work/2021/arqcp21222deg07/modulo3/ex16    .  Stop.
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo3/ex17 ====
+=======================================================
+find: ‘/media/sf_work/2021/arqcp21222deg07/modulo3/ex17’: No such file or directory
+Makefile:28: *** Could not find source files in /media/sf_work/2021/arqcp21222deg07/modulo3/ex17    .  Stop.
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo3/ex18 ====
+=======================================================
+find: ‘/media/sf_work/2021/arqcp21222deg07/modulo3/ex18’: No such file or directory
+Makefile:28: *** Could not find source files in /media/sf_work/2021/arqcp21222deg07/modulo3/ex18    .  Stop.
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo3/ex19 ====
+=======================================================
+find: ‘/media/sf_work/2021/arqcp21222deg07/modulo3/ex19’: No such file or directory
+Makefile:28: *** Could not find source files in /media/sf_work/2021/arqcp21222deg07/modulo3/ex19    .  Stop.
+=======================================================
+===== ./arqcp21222deg07  ./utests/modulo3/ex20 ====
+=======================================================
+find: ‘/media/sf_work/2021/arqcp21222deg07/modulo3/ex20’: No such file or directory
+Makefile:28: *** Could not find source files in /media/sf_work/2021/arqcp21222deg07/modulo3/ex20    .  Stop.
+#########################################################
+Finished Unit Tests
+Number of Passed tests:  2
+#########################################################
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
