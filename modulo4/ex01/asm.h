@@ -1,4 +1,4 @@
 #ifndef ASM_H
 #define ASM_H
-void encrypt(void) 
+int cube(int x);
 #endif
