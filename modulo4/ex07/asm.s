@@ -1,35 +1,37 @@
 .section .text 
-    .global count_even
+     .global count_even
 
-    count_even:
-        # *vec em %rdi
-        # n em %esi
-
+     count_even:
+        
+        movq $0, %r8
+        movq $0, %rcx
+        movq $0, %r9
         movl %esi, %ecx 
-        movq $0, %rax
 
-    loop:
-        cmp $0, %ecx
-        je end
-        pushq %rax
-        movw (%rdi), %ax
-        # movw $2, %cx
-        cdq 
-        idivw %cx
-        popq %rax
-        cmpw $0, %dx
-        je even 
-        addq $2, %rdi
-        decl %ecx
-        jmp loop
+        cmpl $0, %ecx
+        jz end
+
+        myloop:
+            movq $0, %rax 
+            movw (%rdi), %ax
+            movb $2, %r9b
+            cbw
+            idivb %r9b
+            cmpb $0, %ah
+            je isEven
+            continue:
+                addq $2, %rdi
+        loop myloop
+        jmp end
+        isEven:
+            addl $1, %r8d
+            jmp continue
+
+        end:
+            movl %r8d, %eax 
+            ret 
+
     
-    even:
-        incl %eax
-        addq $2, %rdi
-        decl %ecx
-        jmp loop
-    end:
-        ret
         
 
 
